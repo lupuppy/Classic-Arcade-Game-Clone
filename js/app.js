@@ -12,7 +12,7 @@ var Enemy = function() {
     this.speed = Math.floor(Math.random()*100+40);
     //load image
     this.sprite = 'images/enemy-bug.png';
-}
+};
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
@@ -87,13 +87,13 @@ function createEnemiesArray(){
     for (var i = 0; i<4; i++){
         allEnemies[i] = new Enemy();
     }
-}
+};
 
 // Place the player object in a variable called player
 var player;
 function createNewPlayer(){
     player = new Player();
-}
+};
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
