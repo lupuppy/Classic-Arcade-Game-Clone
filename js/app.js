@@ -87,13 +87,13 @@ function createEnemiesArray(){
     for (var i = 0; i<4; i++){
         allEnemies[i] = new Enemy();
     }
-};
+}
 
 // Place the player object in a variable called player
 var player;
 function createNewPlayer(){
     player = new Player();
-};
+}
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
