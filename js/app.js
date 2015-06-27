@@ -12,7 +12,7 @@ var Enemy = function() {
     this.speed = Math.floor(Math.random()*100+40);
     //load image
     this.sprite = 'images/enemy-bug.png';
-}
+};
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
